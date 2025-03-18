@@ -1,0 +1,30 @@
+ [
+        {
+            "id":1,
+            "image" : "/images/BudgetBuddy.png",
+            "title": "Budget Buddy",
+            "description": "- Budget Buddy is an expense management web app enabling users to do all the CRUD opertaions \n -  Has an analytics section to see debited and credited payments.\n - User Privacy",
+            "github":"https://github.com/Abhinav-3359/BudgetBuddy",
+            "site":"https://66b232c01e6cf62ce34e1c61--glowing-pudding-65fb49.netlify.app/"
+        },
+        {
+            "id":2,
+            "image" : "/images/homecare.jpg",
+            "title": "HomeGenie-Home Services",
+            "description": "- A Home service app for booking appointments for services like plumbing,cleaning,electrical work and painting\n - Added User authentication and password reset using **Descope**.",
+            "github":"https://github.com/Abhinav-3359/HomeGenie",
+            "site": "https://home-genie.vercel.app/"
+   
+        },
+        {
+            "id":3,
+            "image" : "/images/pulsepro.jpg",
+            "title": "PulsePro",
+            "description": "- Developed a fully functional fitness exercise app utilizing React,.\n - Empowered users to search for any exercise.\n - Displaying related exercises with animated GIFs and leveraged the power of Rapid API to seamlessly integrate YouTube videos for visual guidance and motivation.",
+            "github":"https://github.com/Abhinav-3359",
+            "site":""
+        
+        }
+      
+        
+    ]

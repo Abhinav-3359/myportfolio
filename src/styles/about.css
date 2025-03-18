@@ -1,0 +1,14 @@
+
+.intro{
+    width: 100%;
+    
+    .about-heading{
+        margin-top: 10%;
+        padding-bottom: 20px;
+    }
+
+    .about-desc{
+        width: 70%;
+        margin-left: 13rem;
+    }
+}

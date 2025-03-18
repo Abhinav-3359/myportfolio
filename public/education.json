@@ -1,0 +1,26 @@
+[
+    {
+        "image": "/images/nitjsr.png",
+        "name": "National Institute of Technology, Jamshedpur",
+        "startYear": 2021,
+        "endYear": 2025,
+        "score": 7.5,
+        "type": "cgpa"
+      },
+      {
+        "image": "/images/denobili.png",
+        "name": "De Nobili School CMRI",
+        "startYear": 2017,
+        "endYear": 2019,
+        "score": 95,
+        "type": "percentage"
+      },
+      {
+        "image": "/images/gurukulam.png",
+        "name": "Gurukulam Dhanbad",
+        "startYear": 2019,
+        "endYear": 2021,
+        "score": 81,
+        "type": "percentage"
+      }
+]
