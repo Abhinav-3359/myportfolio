@@ -3,7 +3,7 @@ import { FiPhone } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-4">
+    <footer className=" py-4">
       <div className="container mx-auto flex justify-center space-x-6">
         
       
@@ -13,7 +13,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition"
         >
-          <FaLinkedin size={28} />
+          <FaLinkedin size={28} className="text-blue-400" />
         </a>
 
      
@@ -23,21 +23,21 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="hover:text-gray-400 transition"
         >
-          <FaGithub size={28} />
+          <FaGithub size={28} className="text-pink-400" />
         </a>
 
         <a
           href="mailto:abhinavanand031@gmail.com"
           className="hover:text-red-400 transition"
         >
-          <FaEnvelope size={28} />
+          <FaEnvelope size={28} className="text-red-400" />
         </a>
 
         <a
           href="tel:+916204406343"
           className="hover:text-green-400 transition"
         >
-          <FiPhone size={28} />
+          <FiPhone size={28} className="text-green-400" />
         </a>
 
       </div>

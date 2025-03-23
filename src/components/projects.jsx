@@ -13,7 +13,7 @@ const projects = () => {
   }, []);
   
   return (
-    <div className="flex flex-wrap gap-6 justify-center p-6 bg-gray-100 min-h-screen">
+    <div className="flex flex-wrap gap-6 justify-center p-6  min-h-screen">
       {cards.map((card) => (
         <Card key={card.id} image={card.image} title={card.title} description={card.description} github={card.github}
         website={card.site} />

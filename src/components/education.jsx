@@ -10,7 +10,7 @@ useEffect(()=>{
 },[]);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-gray-100 min-h-screen">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6  min-h-screen">
    {Edu.map((education) => (
           <Educard key={education.id} image={education.image} name={education.name} startYear={education.startYear} endYear={education.endYear} score={education.score} type={education.type}
           />

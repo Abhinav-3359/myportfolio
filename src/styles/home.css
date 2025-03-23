@@ -1,26 +1,7 @@
-@keyframes typing {
-    0% {
-      width: 0%;
-    }
-   
-    100% {
-      width: 100%; /* Only expands to the full text width */
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
 
-*{
-    color: white;
-    background-color: #242424;
-}
+
 
 .home-heading{
-    color: white;
-    background-color: #242424;
     margin: 0 auto;
     margin-top: 20%;
     padding-bottom: 20px;
@@ -36,7 +17,6 @@
     width: 0;
     font-size: 2rem;
     font-family: monospace;
-    animation: typing 10s steps(50,end) infinite alternate, blink 1.0s infinite; 
     margin-left: 10%;
    
 }

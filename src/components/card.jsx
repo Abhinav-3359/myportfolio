@@ -1,17 +1,17 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-
+import '../App.css';
 export default function Card({ image, title, description, github, website }) {
   return (
-    <div className="w-80 min-h-[420px] rounded-2xl overflow-hidden shadow-lg bg-white transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
+    <div className="w-80 min-h-[420px] rounded-2xl overflow-hidden shadow-lg  transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
      
       <img className="w-full h-48 object-cover" src={image} alt={title} />
       
     
       <div className="p-4 flex flex-col flex-grow">
-        <h2 className="text-xl font-semibold">{title}</h2>
+        <h2 className="text-xl  font-semibold ">{title}</h2>
 
        
-        <p className="text-gray-600 flex-grow max-h-24 max-w-[700px] overflow-y-auto overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 p-1">
+        <p className=" flex-grow ">
           {description || "No description available."}
         </p>
 
