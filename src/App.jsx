@@ -24,7 +24,7 @@ useEffect(()=>{
 
   return (
     <>
-   
+   <BrowserRouter>
     <Router>
     {theme==='light'? <button className='themebtn' onClick={() => dispatch(dark())}>Dark Mode</button>: <button className='themebtn' onClick={() => dispatch(light())}>Light Mode</button>}
     <Navbar/>
@@ -40,6 +40,7 @@ useEffect(()=>{
     </Routes>
     <Footer/>
   </Router>
+  </BrowserRouter>
   </>
   )
 }
