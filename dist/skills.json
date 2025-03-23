@@ -1,0 +1,47 @@
+[
+  {
+    "name": "C++",
+    "image": "/images/c++.png"
+  },
+  {
+    "name": "Java",
+    "image": "/images/java.png"
+  },
+  {
+    "name": "HTML",
+    "image": "/images/html.png"
+  },
+  {
+    "name": "CSS",
+    "image": "/images/css.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/images/js.png"
+  },
+  {
+    "name": "React",
+    "image": "/images/react.png"
+  },
+  {
+    "name": "Node.js",
+    "image": "/images/node.png"
+  },
+  {
+    "name": "Git",
+    "image": "/images/git.png"
+  },
+  {
+    "name": "Linux",
+    "image": "/images/linux.png"
+  },
+  {
+    "name": "VS Code",
+    "image": "/images/vs-code.png"
+  },
+  {
+    "name": "Windows",
+    "image": "/images/windows.png"
+  }
+
+]
