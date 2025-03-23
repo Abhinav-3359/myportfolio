@@ -1,6 +1,10 @@
 {
     "rewrites":  [
-        { "src": "/[^.]+", "dest": "/", "status": 200 }
+        { "src": "/about", "dest": "/" },
+        { "src": "/education", "dest": "/" },
+        { "src": "/projects", "dest": "/" },
+        { "src": "/contact", "dest": "/" },
+        { "src": "/", "dest": "/" }
     ]
   }
   
