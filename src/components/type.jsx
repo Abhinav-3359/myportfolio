@@ -1,6 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
 
-import { Typewriter } from 'react-simple-typewriter';
 
 const Type = () => {
   // Object containing text strings
