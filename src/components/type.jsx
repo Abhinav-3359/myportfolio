@@ -1,4 +1,6 @@
-import Typical from "react-typical";
+import { Typewriter } from 'react-simple-typewriter';
+
+import { Typewriter } from 'react-simple-typewriter';
 
 const Type = () => {
   // Object containing text strings
@@ -7,14 +9,22 @@ const Type = () => {
   };
 
   return (
-    <div className="flex justify-center items-center my-20   text-2xl font-semibold">
-      <Typical
-        steps={[textData.text1, 2500,"", 1000]} // Typing speed
-        loop={Infinity} // Infinite loop
-        wrapper="span"
-      />
+    <div className="flex justify-center items-center my-20 text-2xl font-semibold">
+      <span>
+        <Typewriter
+          words={[textData.text1]}
+          loop={Infinity} // Infinite loop
+          cursor
+          cursorStyle="|" // Cursor style
+          typeSpeed={70} // Speed of typing
+          deleteSpeed={50} // Speed of deleting
+          delaySpeed={2500} // Delay before retyping
+        />
+      </span>
     </div>
   );
 };
 
 export default Type;
+
+
